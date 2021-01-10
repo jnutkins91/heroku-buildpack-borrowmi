@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+BUILD_DIR=$1
+
+echo "-----> Deleting the node_modules and src folders..."
+rm -r "$BUILD_DIR/node_modules"
+rm -r "$BUILD_DIR/src"
+echo "       Done!"
